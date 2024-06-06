@@ -1,3 +1,4 @@
+
 class Book:
     def __init__(self, naziv, autor, god_izdanja, zanr):
         self.naziv = naziv

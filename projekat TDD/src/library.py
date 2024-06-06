@@ -1,3 +1,4 @@
+
 class Libary:
     def __init__(self):
         self.lista_objekata = []
@@ -8,5 +9,3 @@ class Libary:
     def ispis_knjiga(self):
         for object in self.lista_objekata:
             print(object.display_info())
-    
-    
