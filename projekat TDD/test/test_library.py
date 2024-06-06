@@ -3,7 +3,7 @@ import unittest
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-from libary import Libary
+from library import Libary
 from book import Book
 
 class Test_Libary(unittest.TestCase):
